@@ -204,5 +204,7 @@ function fmtname(name) {
 	return fmtname[0][0].toUpperCase() + fmtname[0].slice(1).toLowerCase() + " " + fmtname[1].toUpperCase();
 }
 
+
+$("#main").append(internationalizeButton);
 $("#mapDiv").append(googleMap);
-$("#main").append();
+//$("#main").append();
